@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata={
@@ -11,11 +10,9 @@ export const metadata: Metadata={
 }
 
 export default function Home() {
-  return (
-    <>
-    <div className= 'flex flex-col items-center p-24'>
-      <span className= 'text-5xl'>Hola mundo desde Nextjs</span>
-    </div>
-    </>
-  );
+    return(
+        <>
+        <span className="text-7x1"> pagina de Pricing</span> 
+        </>
+    )    
 }
