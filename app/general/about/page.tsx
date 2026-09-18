@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
-export const metadata: Metadata={
-    title: "Contact About",
-    descripcion: "Esta es la pagina acerca de nosostros...."
-}
+export const metadata: Metadata = {
+  title: 'About Page',
+  description: 'Esta es la pagina de nosotros',
+};
 
 export default function contact() {
     return(

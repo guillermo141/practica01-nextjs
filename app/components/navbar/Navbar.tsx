@@ -1,4 +1,4 @@
-import { React } from 'react'
+import React from 'react';
 import link  from "next/link";
 
 const navItems=[
@@ -27,7 +27,7 @@ export const Navbar = () => {
                     href={navItem.path}
                     className="mr-2"
                     >
-                        {navItem.label}
+                        {navItem.label }
                     </link>
                 ))
               }
